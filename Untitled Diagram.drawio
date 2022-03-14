@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T09:00:36.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="15.5.4" etag="pJfgLrJo26r2AueEJbPj" type="github"><diagram id="QzifyqLawLGOAiHySqyZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-14T04:28:13.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="tMovV2gcGwip91tFSllX" version="16.6.6" type="github">
+  <diagram id="QzifyqLawLGOAiHySqyZ" name="Page-1">
+    <mxGraphModel dx="1428" dy="2191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7TDymMsTx205nytrYbud-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-1" target="7TDymMsTx205nytrYbud-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-2" target="7TDymMsTx205nytrYbud-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-2" value="输入用户信息（账号：学工号、学籍号 初始密码：学工号或学籍号后6位）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-3" target="7TDymMsTx205nytrYbud-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-8" value="用&lt;br&gt;户&lt;br&gt;不&lt;br&gt;存&lt;br&gt;在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontFamily=宋体;fontStyle=1" vertex="1" connectable="0" parent="7TDymMsTx205nytrYbud-7">
+          <mxGeometry x="-0.3879" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-10" value="用&lt;br&gt;户&lt;br&gt;存&lt;br&gt;在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;fontStyle=1" edge="1" parent="1" source="7TDymMsTx205nytrYbud-3" target="7TDymMsTx205nytrYbud-9">
+          <mxGeometry x="-0.3043" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-3" value="核验用户？" style="rhombus;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="203.75" width="156" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-6" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="510" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-9" target="7TDymMsTx205nytrYbud-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-9" value="赋予用户相对应的系统功能适应权限" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="-50" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-14" value="HTTP请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;fontStyle=1" edge="1" parent="1" source="7TDymMsTx205nytrYbud-11" target="7TDymMsTx205nytrYbud-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-11" value="选择功能模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="687" y="-37.5" width="140" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-13" target="7TDymMsTx205nytrYbud-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-13" value="后端控制层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="940" y="-37.5" width="130" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-15" target="7TDymMsTx205nytrYbud-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-15" value="业务层执行相应功能代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-57.5" width="130" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-22" value="HTTP响应" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;fontStyle=1" edge="1" parent="1" source="7TDymMsTx205nytrYbud-16" target="7TDymMsTx205nytrYbud-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-16" value="返回结果数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1520" y="-38.75" width="140" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-17" value="前端页面展示" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1780" y="-38.75" width="150" height="108.75" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=22;" edge="1" parent="1" source="7TDymMsTx205nytrYbud-18" target="7TDymMsTx205nytrYbud-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TDymMsTx205nytrYbud-18" value="数据层对数据进行操作" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-57.5" width="130" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
