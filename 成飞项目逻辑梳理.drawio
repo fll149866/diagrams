@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T09:56:22.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="q0CYVPP8JrnbOxvb7LV1" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T09:57:51.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u_pyafHSL29tuSZe8K1o" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
     <mxGraphModel dx="1863" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="9zO-XzP03Kmli_csOhuw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-4" target="9zO-XzP03Kmli_csOhuw-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9zO-XzP03Kmli_csOhuw-4" value="CAD实例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9zO-XzP03Kmli_csOhuw-4" value="生成CAD实例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-6" value="请求体&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;TsDto&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -79,7 +79,7 @@
         <mxCell id="9zO-XzP03Kmli_csOhuw-22" value="生成轻量化任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9zO-XzP03Kmli_csOhuw-24" value="返回检入的CAD文档和文件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9zO-XzP03Kmli_csOhuw-24" value="返回检入的CAD文档和文件信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
