@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T07:17:52.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dqr70TxLOKmD8R5Bk1Ov" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T08:06:01.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="phV7kqyZ-DLNAuMhRndL" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
-    <mxGraphModel dx="2307" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,11 +208,11 @@
         <mxCell id="9zO-XzP03Kmli_csOhuw-71" value="读取存放打包文件的文件夹&lt;br&gt;进行响应输出" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="923.75" y="3090" width="222.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9zO-XzP03Kmli_csOhuw-76" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="40" width="940" height="1550" as="geometry" />
+        <mxCell id="9zO-XzP03Kmli_csOhuw-76" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="39" width="940" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-77" value="&lt;h1&gt;上传轻量化&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="90" width="130" height="50" as="geometry" />
+          <mxGeometry x="1740" y="80" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-78" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 0px 0px 1.875rem; list-style: square; position: relative; color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; text-align: left; background-color: rgb(54, 59, 64);&quot; data-mark=&quot;-&quot; class=&quot;ul-list&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; position: relative;&quot; class=&quot;md-list-item md-focus-container&quot;&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0px 0px 0.5rem; overflow-wrap: break-word; white-space-collapse: preserve; position: relative;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-pair-s md-expand&quot; spellcheck=&quot;false&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace; vertical-align: initial; font-size: 0.875em; background: rgba(0, 0, 0, 0.05); padding: 2px 5px;&quot;&gt;erd.cloud.pdm.cad.controller.TsController#batchImport&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-500" y="130" width="370" height="30" as="geometry" />
@@ -222,6 +222,26 @@
             <mxGeometry x="800" y="100" width="490" height="50" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="&lt;ul class=&quot;ul-list&quot; data-mark=&quot;-&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 0px 0px 1.875rem; list-style: square; position: relative; color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(54, 59, 64); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li class=&quot;md-list-item md-focus-container&quot; style=&quot;box-sizing: border-box; margin: 0px; position: relative;&quot;&gt;&lt;p class=&quot;md-end-block md-p md-focus&quot; style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0px 0px 0.5rem; overflow-wrap: break-word; white-space: pre-wrap; position: relative;&quot;&gt;&lt;span spellcheck=&quot;false&quot; class=&quot;md-pair-s md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace; text-align: left; vertical-align: initial; font-size: 0.875em; background: rgba(0, 0, 0, 0.05); padding: 2px 5px;&quot;&gt;erd.cloud.pdm.cad.controller.TsController#uploadLightweight&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" link="&lt;ul class=&quot;ul-list&quot; data-mark=&quot;-&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 0px 0px 1.875rem; list-style: square; position: relative; color: rgb(184, 191, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(54, 59, 64); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li class=&quot;md-list-item md-focus-container&quot; style=&quot;box-sizing: border-box; margin: 0px; position: relative;&quot;&gt;&lt;p class=&quot;md-end-block md-p md-focus&quot; style=&quot;box-sizing: border-box; line-height: inherit; orphans: 4; margin: 0px 0px 0.5rem; overflow-wrap: break-word; white-space: pre-wrap; position: relative;&quot;&gt;&lt;span spellcheck=&quot;false&quot; class=&quot;md-pair-s md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, monospace; text-align: left; vertical-align: initial; font-size: 0.875em; background: rgba(0, 0, 0, 0.05); padding: 2px 5px;&quot;&gt;erd.cloud.pdm.cad.controller.TsController#uploadLightweight&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" id="9zO-XzP03Kmli_csOhuw-81">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+            <mxGeometry x="1880" y="90" width="530" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-82" target="9zO-XzP03Kmli_csOhuw-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-82" value="读取并解析请求参数" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="190" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-83" target="9zO-XzP03Kmli_csOhuw-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-83" value="通过objectOids&lt;br&gt;获取文件mapping id&lt;br&gt;查询图档" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="350" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-85" value="遍历图档" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="510" width="220" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
