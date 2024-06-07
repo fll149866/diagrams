@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T01:00:42.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qjS9Bu-quJ14fdT0liff" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T01:22:28.265Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="4LaGgeWkB_Z7kEvXaCYp" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
-    <mxGraphModel dx="2554" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9zO-XzP03Kmli_csOhuw-26" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="40" width="570" height="1550" as="geometry" />
+        </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-2" value="XStream是由ThoughtWorks创建的一个用于序列化和反序列化Java对象的库，它可以将Java对象转换为XML或JSON格式，并从XML或JSON中还原Java对象。XStream的设计目标是简洁和易用，适用于各种Java应用程序的对象序列化需求。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-10" width="340" height="200" as="geometry" />
+          <mxGeometry x="-110" y="-180" width="340" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-3" target="9zO-XzP03Kmli_csOhuw-4">
           <mxGeometry relative="1" as="geometry" />
@@ -78,6 +81,15 @@
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-24" value="返回检入的CAD文档和文件信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-28" value="&lt;h1&gt;批量检入&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="70" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="750" y="50" width="600" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-31" value="&lt;h1&gt;批量下载&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="800" y="90" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
