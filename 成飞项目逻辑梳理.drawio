@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T03:44:19.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dt8nnjM6wkDqEHQo4phz" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T04:26:27.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZDEy9zgNBZYxtZbTAPEi" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
-    <mxGraphModel dx="1863" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
           <mxGeometry x="-200" y="70" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="630" y="30" width="920" height="2070" as="geometry" />
+          <mxGeometry x="580" y="30" width="970" height="2380" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-31" value="&lt;h1&gt;批量下载&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="800" y="90" width="130" height="50" as="geometry" />
@@ -157,8 +157,20 @@
         <mxCell id="9zO-XzP03Kmli_csOhuw-51" value="根据副本信息查询原始版本信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="940" y="1690" width="190" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-53" target="9zO-XzP03Kmli_csOhuw-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-53" value="根据epmIds批量&lt;br&gt;获取Epm（族表）对象" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="940" y="1840" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-55" target="9zO-XzP03Kmli_csOhuw-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-55" value="获取与处理族表属性" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1990" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-57" value="获取文件资源" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2140" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
