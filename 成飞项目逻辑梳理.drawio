@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T01:29:03.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OCZ9ugq_DA8_fkwCp4ic" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T01:57:03.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="hZONxZQem4Plnk1UMIzI" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
     <mxGraphModel dx="2046" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,13 +86,43 @@
           <mxGeometry x="-200" y="70" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="750" y="50" width="600" height="1520" as="geometry" />
+          <mxGeometry x="740" y="40" width="600" height="1520" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-31" value="&lt;h1&gt;批量下载&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="800" y="90" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9zO-XzP03Kmli_csOhuw-32" value="获取入参" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="970" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="9zO-XzP03Kmli_csOhuw-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-32" target="9zO-XzP03Kmli_csOhuw-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-32" value="获取入参&lt;br&gt;（fileOid、partNumber-部件编码）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="190" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-33" target="9zO-XzP03Kmli_csOhuw-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-33" value="查询部件最新版本" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="340" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-35" target="9zO-XzP03Kmli_csOhuw-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-35" value="根据部件Oid列表查询&lt;br&gt;关联图档的id Map" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="490" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-37" target="9zO-XzP03Kmli_csOhuw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-37" value="根据图档id列表获取附件信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="640" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-39" target="9zO-XzP03Kmli_csOhuw-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-39" value="合并上述fileOid" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="790" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-41" value="判断是否下载附件&#xa;（入参：includeAttachments）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="940" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
