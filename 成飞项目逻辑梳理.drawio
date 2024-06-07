@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T08:06:01.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="phV7kqyZ-DLNAuMhRndL" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T08:22:08.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lv_2ygjjuY3Y8CjOaT3f" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
     <mxGraphModel dx="2046" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
           <mxGeometry x="923.75" y="3090" width="222.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-76" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="39" width="940" height="1550" as="geometry" />
+          <mxGeometry x="1620" y="30" width="940" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-77" value="&lt;h1&gt;上传轻量化&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1740" y="80" width="130" height="50" as="geometry" />
@@ -239,8 +239,25 @@
         <mxCell id="9zO-XzP03Kmli_csOhuw-83" value="通过objectOids&lt;br&gt;获取文件mapping id&lt;br&gt;查询图档" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1960" y="350" width="220" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-85" target="9zO-XzP03Kmli_csOhuw-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-85" value="遍历图档" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1960" y="510" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-87" target="9zO-XzP03Kmli_csOhuw-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-87" value="解压后批量上传" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="670" width="220" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="erd.cloud.pdm.content.business.DocBizService#batchUpload" link="erd.cloud.pdm.content.business.DocBizService#batchUpload" id="9zO-XzP03Kmli_csOhuw-89">
+          <mxCell style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+            <mxGeometry x="2190" y="700" width="360" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-90" value="保存DerivedImageDto" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="830" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
