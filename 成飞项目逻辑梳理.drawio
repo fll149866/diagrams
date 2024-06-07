@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T02:22:43.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eHZ31I-crymjZ8uIWr2K" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T03:09:34.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="oqhobrrHk0ZosWWDj7AI" version="24.4.14" type="github">
   <diagram name="第 1 页" id="KDsxGl1fq4lFFDoglSv8">
     <mxGraphModel dx="2046" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="-200" y="70" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="740" y="40" width="600" height="1520" as="geometry" />
+          <mxGeometry x="620" y="40" width="920" height="2070" as="geometry" />
         </mxCell>
         <mxCell id="9zO-XzP03Kmli_csOhuw-31" value="&lt;h1&gt;批量下载&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="800" y="90" width="130" height="50" as="geometry" />
@@ -133,8 +133,20 @@
         <mxCell id="9zO-XzP03Kmli_csOhuw-43" value="批量填充文件信息&#xa;（入参：_fileOidList_）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="940" y="1090" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9zO-XzP03Kmli_csOhuw-45" value="附件使用关系" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="9zO-XzP03Kmli_csOhuw-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-45" target="9zO-XzP03Kmli_csOhuw-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-45" value="根据业务对象的oid、角色&lt;br&gt;获取附件列表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="940" y="1240" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9zO-XzP03Kmli_csOhuw-47" target="9zO-XzP03Kmli_csOhuw-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-47" value="再次填充文件信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1390" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9zO-XzP03Kmli_csOhuw-49" value="根据文件信息获取文档属性" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1540" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
